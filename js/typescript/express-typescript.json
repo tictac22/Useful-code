@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"noImplicitAny": false,
+		"jsx": "preserve",
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"allowSyntheticDefaultImports": true,
+		"outDir": "dist",
+		"esModuleInterop": true
+	},
+	"lib": ["DOM", "es6"],
+	"exclude": [
+		"node_modules"
+	]
+  }
