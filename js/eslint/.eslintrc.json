@@ -34,9 +34,11 @@
 	"rules": {
 		"no-empty-function": "warn",
 		"@typescript-eslint/no-empty-function": "error",
+		"@typescript-eslint/no-non-null-assertion": "off",
 		"no-console": [1],
 		"prefer-const": "warn",
 		"import/no-unresolved": 2,
+		"react/react-in-jsx-scope": "off",
 		"react/function-component-definition": [
 			2,
 			{
