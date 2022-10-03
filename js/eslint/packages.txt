@@ -1,6 +1,6 @@
 eslint and prettier packages
    eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier 
-   eslint-plugin-import eslint-import-resolver-typescript
+   eslint-plugin-import eslint-import-resolver-typescript @trivago/prettier-plugin-sort-imports
    
 Frameworks React: eslint-plugin-react
            Vue: eslint-plugin-vue @vue/eslint-config-typescript
