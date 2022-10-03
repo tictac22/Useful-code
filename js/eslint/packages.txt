@@ -1,4 +1,13 @@
-// eslint  @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react
-// "lint": "eslint . --max-warnings=0",
+eslint and prettier packages
+   eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier 
+   eslint-plugin-import eslint-import-resolver-typescript
+   
+Frameworks React: eslint-plugin-react
+           Vue: eslint-plugin-vue @vue/eslint-config-typescript
+    
+IF tailwind: prettier-plugin-tailwindcss
+
+Commands
+    "lint": "eslint . --max-warnings=0",
     "lint:fix": "eslint --fix .",
-    prettier-plugin-tailwindcss
+    "prettier":"prettier": "npx prettier --write ."
